@@ -1,7 +1,7 @@
 const roles = {
-	admin: "https://www.flaticon.com/svg/static/icons/svg/1424/1424453.svg",
-	student: "https://www.flaticon.com/svg/static/icons/svg/1424/1424424.svg",
-	lector: "https://www.flaticon.com/svg/static/icons/svg/1424/1424450.svg"
+	admin: "https://e7.pngegg.com/pngimages/19/226/png-clipart-richard-armitage-thorin-oakenshield-the-hobbit-an-unexpected-journey-bilbo-baggins-gandalf-the-hobbit-wizard-dwarf-thumbnail.png",
+	student: "https://e7.pngegg.com/pngimages/950/105/png-clipart-the-hobbit-an-unexpected-journey-gollum-bilbo-baggins-gandalf-the-hobbit-s-mammal-vertebrate-thumbnail.png",
+	lector: "https://e7.pngegg.com/pngimages/306/370/png-clipart-smaug-dragon-thorin-oakenshield-the-hobbit-cliff-dragon-mammal-dragon-thumbnail.png",
 };
 
 const gradation = {
@@ -13,89 +13,89 @@ const gradation = {
 
 const users = [
 	{
-		name: "Jack Smith",
-		age: 23,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922522.svg",
+		name: "Dvalyn",
+		age: 42,
+		img: "https://e7.pngegg.com/pngimages/725/211/png-clipart-dwalin-thorin-oakenshield-the-hobbit-bombur-dwarf-dwarf-mammal-chibi-thumbnail.png",
 		role: "student",
 		courses: [
 			{
-				"title": "Front-end Pro",
+				"title": " Self-defense",
 				"mark": 20
 			},
 			{
-				"title": "Java Enterprise",
+				"title": "Riding",
 				"mark": 100
 			}
 		]
 	},
 	{
-		name: "Amal Smith",
+		name: "Kily",
 		age: 20,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922656.svg",
+		img: "https://e7.pngegg.com/pngimages/355/409/png-clipart-thranduil-kili-thorin-oakenshield-legolas-fili-the-hobbit-chibi-fictional-character-thumbnail.png",
 		role: "student"
 	},
 	{
-		name: "Noah Smith",
+		name: "Ballyn",
 		age: 43,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922616.svg",
+		img: "https://e7.pngegg.com/pngimages/254/463/png-clipart-the-hobbit-balin-the-lord-of-the-rings-fili-bilbo-baggins-dwarf-rings-chibi-cartoon-thumbnail.png",
 		role: "student",
 		courses: [
 			{
-				"title": "Front-end Pro",
+				"title": "Intelligence",
 				"mark": 50
 			}
 		]
 	},
 	{
-		name: "Charlie Smith",
+		name: "Bombur",
 		age: 18,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922688.svg",
+		img: "https://e7.pngegg.com/pngimages/743/129/png-clipart-bilbo-baggins-the-hobbit-kili-thranduil-thorin-oakenshield-small-spoon-mammal-carnivoran-thumbnail.png",
 		role: "student",
 		courses: [
 			{
-				"title": "Front-end Pro",
+				"title": "Self-defense",
 				"mark": 75
 			},
 			{
-				"title": "Java Enterprise",
+				"title": "Power",
 				"mark": 23
 			}]
 	},
 	{
-		name: "Emily Smith",
-		age: 30,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922565.svg",
+		name: "Tranduil",
+		age: 130,
+		img: "https://e7.pngegg.com/pngimages/567/1019/png-clipart-thranduil-legolas-tauriel-anime-bilbo-baggins-anime-face-chibi-thumbnail.png",
 		role: "admin",
 		courses: [
 			{
-				"title": "Front-end Pro",
+				"title": "Self-defense",
 				"score": 10,
 				"lector": "Leo Smith"
 			},
 			{
-				"title": "Java Enterprise",
+				"title": "Power",
 				"score": 50,
 				"lector": "David Smith"
 			},
 			{
-				"title": "QA",
+				"title": "Intelligence",
 				"score": 75,
 				"lector": "Emilie Smith"
 			}]
 	},
 	{
-		name: "Leo Smith",
+		name: "Smaug",
 		age: 253,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922719.svg",
+		img: "https://e7.pngegg.com/pngimages/967/637/png-clipart-smaug-drawing-the-hobbit-dragon-dragon-dragon-fictional-character-thumbnail.png",
 		role: "lector",
 		courses: [
 			{
-				"title": "Front-end Pro",
+				"title": "Power",
 				"score": 78,
 				"studentsScore": 79
 			},
 			{
-				"title": "Java Enterprise",
+				"title": "Self-defense",
 				"score": 85,
 				"studentsScore": 85
 			}
