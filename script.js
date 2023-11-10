@@ -102,3 +102,47 @@ const users = [
 		]
 	}
 ]
+
+
+class User {
+	constructor( name,age,img,role,courses) {
+
+		this.name = name;
+		this.age = age;
+		this.img = img;
+		this.role = role;
+		this.courses = courses;
+	}
+
+	render(){
+
+	}
+
+	renderCourses() {
+
+	}
+}
+
+class Student extends User {
+	constructor( name,age,img,role,courses){
+		super( name,age,img,role,courses)
+	}
+		
+}
+
+class Admin extends User {
+	constructor( name,age,img,role,courses){
+		super( name,age,img,role,courses)
+	}
+		
+}
+
+class Lector extends User {
+	constructor( name,age,img,role,courses){
+		super( name,age,img,role,courses)
+	}
+		
+}
+
+
+  
